@@ -18,6 +18,9 @@ switch (a) {
   case 'bananas':
     alert("bananas are 56$")
     break
+  case 'apples':
+    alert("apples are 56$")
+    break
   default:
     alert("we are out of ", (a))
 
