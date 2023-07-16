@@ -12,15 +12,25 @@
 
 // Nested For Loops Only
 
-var bigNums = prompt("Enter first Number");
-var smallNums = prompt("Enter first Number");
-var num1 = parseInt(bigNums);
-var num2 = parseInt(smallNums);
-var sumNum = [];
-for (var i = 0; i < bigNums.length; i++) {
-    for (var j = 0; j < smallNums.length; j++) {
-        sumNum.push(bigNums[i] + smallNums[j])
-    }
+// var bigNums = prompt("Enter first Number");
+// var smallNums = prompt("Enter first Number");
+// var num1 = parseInt(bigNums);
+// var num2 = parseInt(smallNums);
+// var sumNum = [];
+// for (var i = 0; i < bigNums.length; i++) {
+//     for (var j = 0; j < smallNums.length; j++) {
+//         sumNum.push(bigNums[i] + smallNums[j])
+//     }
+// }
+// alert(sumNum);
+
+var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+for (var i = 0; i < firstNames.length; i++) {
+  for (var j = 0; j < lastNames.length; j++) {
+    fullNames.push(firstNames[i] + lastNames[j])
+  }
 }
-alert(sumNum);
+console.log(fullNames);
 
