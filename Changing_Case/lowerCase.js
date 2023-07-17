@@ -1,7 +1,7 @@
-var nickname = "abdul";
-var nickname = nickname.toUpperCase();
+var nickname = "ABDUL";
+var nickname = nickname.toLowerCase();
 console.log(nickname);
-if (nickname.toUpperCase() !== "abdul") {
+if (nickname.toLowerCase() === "ABDUL") {
     console.log("Right");
 }
 else{
