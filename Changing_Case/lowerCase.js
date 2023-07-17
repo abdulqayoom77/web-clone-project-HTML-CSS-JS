@@ -7,3 +7,4 @@ if (nickname.toLowerCase() === "ABDUL") {
 else{
     console.log("Wrong")
 }
+
