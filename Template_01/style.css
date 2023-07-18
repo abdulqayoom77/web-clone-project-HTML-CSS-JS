@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: auto;
+    background-image: url("Images/abstract-digital-grid-black-background_53876-97647.avif");
+    background-size: cover;
+}
+
+header {
+    position: sticky;
+}
+
+.nav {
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    height: 40px;
+    background-color: rgba(107, 99, 99, 0.2);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(107, 99, 99, 0.3);
+}
+
+.logo {
+    padding-left: 90px ;
+    color: white;
+}
+
+.logo p {
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.buttons {
+    padding-right: 90px;
+    padding-top: 10px;
+}
+
+.buttons a {
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font: 1em sans-serif;
+    font-weight: 600;
+}
+.buttons a:hover {
+    border-bottom: 2px solid rgb(123, 218, 223);
+    border-top: 2px solid rgb(123, 218, 223);
+    color: rgb(123, 218, 223);
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 150px;
+}
+
+main, div {
+    padding-bottom: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+}
+
+
+hr {
+    width: 310px;
+    height: 2px;
+    margin: 20px 0px;
+}
+
+.tag_line {
+    color: white;
+    font-size: 22px;
+    padding: 0px 320px;
+    text-align: center;
+    margin: 10px 0px;
+    line-height: 39px;
+}
+
+.intro {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px 350px;
+    text-align: center;
+    margin: 15px 0px;
+    line-height: 25px;
+}
+
+.button {
+    font-weight: 600;
+    padding: 0px 350px;
+    text-align: center;
+    margin: 15px 0px;
+    line-height: 25px;
+    
+}
+
+.buttonb{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(54, 143, 148);
+    border: 2px solid rgb(226, 215, 215);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.buttonb:hover {
+    background-color: rgb(123, 218, 223);
+} 
