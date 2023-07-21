@@ -7,5 +7,5 @@ for (var i = 0; i <= 5; i++) {
     }
 }
 if (matchFound === false) {
-    alert("It's not on the list");
+    alert("It's not on the list of cleanest cities");
 }
