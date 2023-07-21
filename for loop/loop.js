@@ -1,5 +1,5 @@
 
-var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu","karachi"];
 cleanestCities = prompt("Enter your city");
 for (var i = 0; i <= 4; i++) {
     if (cityToCheck === cleanestCities[i]) {
