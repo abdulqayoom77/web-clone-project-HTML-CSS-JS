@@ -18,5 +18,11 @@
 
 // Alert
 
-var direction = "Move Up";
-alert(direction.replace("Up", "Down"));
+// var direction = "Move Up";
+// alert(direction.replace("Up", "Down"));
+
+// Exercise
+
+var anString = "My name is Abdul";
+anString = anString.replace("My name is Abdul", "I am Abdul Qayoom");
+alert(anString);
