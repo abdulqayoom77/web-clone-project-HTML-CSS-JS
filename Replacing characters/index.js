@@ -21,8 +21,14 @@
 // var direction = "Move Up";
 // alert(direction.replace("Up", "Down"));
 
-// Exercise
+// Exercise01
 
-var anString = "My name is Abdul";
-anString = anString.replace("My name is Abdul", "I am Abdul Qayoom");
+// var anString = "My name is Abdul";
+// anString = anString.replace("My name is Abdul", "I am Abdul Qayoom");
+// alert(anString);
+
+//Exercise02
+
+var anString = "To be or not to be"; 
+anString = anString.replace(/be/g, "party"); 
 alert(anString);
