@@ -12,6 +12,11 @@
 
 //Replacing Characters an assigning to the same Variable
 
-var char = "I am Abdul"
-var char = char.replace("Abdul", "Abdul Qayoom");
-console.log(char);
+// var char = "I am Abdul"
+// var char = char.replace("Abdul", "Abdul Qayoom");
+// console.log(char);
+
+// Alert
+
+var direction = "Move Up";
+alert(direction.replace("Up", "Down"));
