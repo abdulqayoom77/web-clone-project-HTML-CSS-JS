@@ -16,3 +16,4 @@
 
 // console.log(parseFloat(".93") + parseFloat(.90));
 
+console.log(parseInt("93") + parseInt("90"));
