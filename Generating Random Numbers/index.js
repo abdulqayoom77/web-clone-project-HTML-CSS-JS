@@ -16,4 +16,12 @@
 
 // console.log(parseFloat(".93") + parseFloat(.90));
 
-console.log(parseInt("93") + parseInt("90"));
+// console.log(parseInt("93") + parseInt("90"));
+
+var myString = "9" + "9";
+if (parseInt(myString) > 1) {
+    console.log("Greater than 1")
+}
+else {
+    console.log("It's not Greater than 1")
+}
