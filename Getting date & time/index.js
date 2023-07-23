@@ -20,3 +20,6 @@ console.log(nameOfMonth);
 
 //Getting Date
 
+var now = new Date();
+var date = now.getDate();
+console.log(date);
