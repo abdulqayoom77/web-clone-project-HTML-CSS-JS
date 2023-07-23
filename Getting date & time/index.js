@@ -30,5 +30,32 @@ var now = new Date();
 var year = now.getFullYear();
 console.log(year);
 
-//Getting Time
+//Getting Time gives you the number of milliseconds that have elapsed since midnight, Jan. 1,1970.
 
+var now = new Date();
+var time = now.getTime();
+console.log(time);
+
+//Getting Hours
+
+var now = new Date();
+var hours = now.getHours();
+console.log(hours);
+
+//Getting Minutes
+
+var now = new Date();
+var minutes = now.getMinutes();
+console.log(minutes);
+
+//Getting Seconds
+
+var now = new Date();
+var seconds = now.getSeconds();
+console.log(seconds);
+
+//Getting Milliseconds
+
+var now = new Date();
+var milliSeconds = now.getMilliseconds();
+console.log(milliSeconds);
