@@ -9,3 +9,14 @@ var now = new Date();
 var theDay = now.getDay();
 var nameOfToday = dayNames[theDay];
 console.log(nameOfToday);
+
+// Getting Month
+
+var monthNames = ["January", "February", "March", "April", "May", "June", "July" , "August", "September", "October", "November", "December"];
+var now = new Date();
+var theMonth = now.getMonth();
+var nameOfMonth = monthNames[theMonth];
+console.log(nameOfMonth);
+
+//Getting Date
+
