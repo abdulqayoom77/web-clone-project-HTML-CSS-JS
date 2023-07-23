@@ -23,3 +23,12 @@ console.log(nameOfMonth);
 var now = new Date();
 var date = now.getDate();
 console.log(date);
+
+//Getting Year
+
+var now = new Date();
+var year = now.getFullYear();
+console.log(year);
+
+//Getting Time
+
