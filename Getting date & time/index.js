@@ -58,4 +58,8 @@ console.log(seconds);
 
 var now = new Date();
 var milliSeconds = now.getMilliseconds();
-console.log(milliSeconds);
+var miliSeconds = milliSeconds.setMilliseconds(5);
+console.log(miliSeconds);
+// var d = new Date();
+// var secsSince = d.getTime() / 1000;
+// console.log(secsSince);
