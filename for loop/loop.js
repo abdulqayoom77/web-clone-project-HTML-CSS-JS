@@ -12,16 +12,22 @@
 
 // Prime Numbers in For loop
 
-var n = 100;
-for (var i = 2; i <= n; i++) {
-    var isPrime = true;
-    for (var j = 2; j <= Math.sqrt(i); j++) { // nested loop
-        if (i % j === 0) {
-            isPrime = false;
-            break;
-        }
-    }
-    if (isPrime) {
-        console.log(i);
-    }
+// var n = 100;
+// for (var i = 2; i <= n; i++) {
+//     var isPrime = true;
+//     for (var j = 2; j <= Math.sqrt(i); j++) { // nested loop
+//         if (i % j === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     if (isPrime) {
+//         console.log(i);
+//     }
+// }
+
+function onePlusAvg(num1, num2) {
+    var sum = 1 + (num1 + num2) / 2;
+    console.log(sum);
 }
+onePlusAvg(2, 9);
