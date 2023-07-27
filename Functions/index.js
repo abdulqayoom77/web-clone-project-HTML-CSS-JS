@@ -17,6 +17,6 @@
 // onePlusAvg(2, 9);
 
 function greetUser(greeting) {
-    console.log(greeting);
+    document.write(greeting);
 }
-greetUser("Hi! I am Abdul");
+greetUser("Hi! I am Abdul.");
