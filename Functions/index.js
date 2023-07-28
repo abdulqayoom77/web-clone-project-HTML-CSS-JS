@@ -27,9 +27,10 @@
 // 	return n.split("").reverse().join("");
 // }
 // console.log(Number(reverse_a_number(32243)));
-
+var n = prompt("Enter your Name to be reversed")
 function reverse_a_string(n) {
     n = n;
     return n.split("").reverse().join("");
 }
-console.log(String(reverse_a_string("Abdul")));
+alert(String(reverse_a_string(n)));
+document.write(String(reverse_a_string(n)));
