@@ -16,7 +16,20 @@
 // }
 // onePlusAvg(2, 9);
 
-function greetUser(greeting) {
-    document.write(greeting);
+// function greetUser(greeting) {
+//     document.write(greeting);
+// }
+// greetUser("Hi! I am Abdul.");
+
+// function reverse_a_number(n)
+// {
+// 	n = n + "";
+// 	return n.split("").reverse().join("");
+// }
+// console.log(Number(reverse_a_number(32243)));
+
+function reverse_a_string(n) {
+    n = n;
+    return n.split("").reverse().join("");
 }
-greetUser("Hi! I am Abdul.");
+console.log(String(reverse_a_string("Abdul")));
