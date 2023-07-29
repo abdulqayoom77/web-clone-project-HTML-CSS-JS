@@ -27,10 +27,18 @@
 // 	return n.split("").reverse().join("");
 // }
 // console.log(Number(reverse_a_number(32243)));
+// var n = prompt("Enter your Name to be reversed")
+// function reverse_a_string(n) {
+//     n = n;
+//     return n.split("").reverse().join("");
+// }
+// alert(String(reverse_a_string(n)));
+// document.write(String(reverse_a_string(n)));
+
 var n = prompt("Enter your Name to be reversed")
 function reverse_a_string(n) {
-    n = n;
+    n = n.toString();
     return n.split("").reverse().join("");
 }
-alert(String(reverse_a_string(n)));
-document.write(String(reverse_a_string(n)));
+alert(Number(reverse_a_string(n)));
+document.write(Number(reverse_a_string(n)));
