@@ -21,4 +21,4 @@ break;
 default :
 alert("Type the spelling Correctly \n 1. MANGO \n 2. APPLE");
 }
-document.write();
+// document.write();
