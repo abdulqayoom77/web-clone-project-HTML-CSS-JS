@@ -29,22 +29,22 @@
   .login_form_container::before{
       
       position: absolute;
-      width: 170%;
-      height: 170%;
+      width: 200%;
+      height: 200%;
       content: '';
-      background-image: conic-gradient(transparent, transparent, transparent, #ee00ff);
-      animation: rotate_border 6s linear infinite;
+      background-image: conic-gradient(transparent, transparent, transparent, #ee00ff, #24005f, #ff9100);
+      animation: rotate_border 10s linear infinite;
   
   }
   .login_form_container::after{
       
       position: absolute;
-      width: 170%;
-      height: 170%;
+      width: 200%;
+      height: 200%;
       content: '';
-      background-image: conic-gradient(transparent, transparent, transparent, #00ccff);
-      animation: rotate_border 6s linear infinite;
-      animation-delay: -3s;
+      background-image: conic-gradient(transparent, transparent, transparent, #00ccff, green,#ff0000);
+      animation: rotate_border 10s linear infinite;
+      animation-delay: 5s;
   }
   @keyframes rotate_border{
       0%{
