@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div>
-        <form onSubmit="checkEmail('email')">
-            <label for="Email" class="form">Email :</label><br>
-            <input type="text" id="email" ><br><br>
-            <input type="submit" value="submit" id="button" >
+    <div class="login_form_container">
+        <form class="login_form" onsubmit="checkName('Username'); checkPass('pass'); checkBoth('input_text');">
+            <h2>Login</h2>
+            <div class="input_group">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Username" class="input_text " id="Username" autocomplete="off"/>
+            </div>
+            <div class="input_group">
+                <i class="fa fa-unlock-alt"></i>
+                <input type="password" id="pass" placeholder="Password" class="input_text " autocomplete="off" />
+            </div>
+            <div class="button_group" id="login_button">
+                <input type="submit" value="Login">
+            </div>
+            <div class="footer">
+                <a>Forgot Password</a>
+                <a>Sign Up</a>
+            </div>
         </form>
     </div>
     <script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </body>
+
 </html>
