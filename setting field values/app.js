@@ -33,4 +33,4 @@ function amountTocoins(amount, coins)
         }
     }
 } 
-document.write(amountTocoins(46, [25, 10, 5, 2,1]));
+console.log(amountTocoins(46, [25, 10, 5, 2,1]));
