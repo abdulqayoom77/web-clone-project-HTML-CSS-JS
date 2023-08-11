@@ -1,14 +1,14 @@
 // Nested For Loops and Arrays 
 
-var bigNums = [234, 2142, 325, 2314];
-var smallNums = [32, 43, 23];
-var sumNum = [];
-for (var i = 0; i < bigNums.length; i++) {
-    for (var j = 0; j < smallNums.length; j++) {
-        sumNum.push(bigNums[i] + smallNums[j])
-    }
-}
-console.log(sumNum);
+// var bigNums = [234, 2142, 325, 2314];
+// var smallNums = [32, 43, 23];
+// var sumNum = [];
+// for (var i = 0; i < bigNums.length; i++) {
+//     for (var j = 0; j < smallNums.length; j++) {
+//         sumNum.push(bigNums[i] + smallNums[j])
+//     }
+// }
+// console.log(sumNum);
 
 // Nested For Loops Only
 
@@ -34,3 +34,4 @@ console.log(sumNum);
 // }
 // console.log(fullNames);
 
+for (var i=)
