@@ -15,7 +15,7 @@ function start(){
             getSecs.innerHTML = sec;
             mili = 0;
         }
-        else if (sec >=60){
+        else if (sec >=59){
             min++;
             getMins.innerHTML = min;
             sec = 0;

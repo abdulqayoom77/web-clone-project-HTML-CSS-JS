@@ -82,6 +82,7 @@ h1 {
 }
 
 .btn:hover {
+    
     color: black;
     background-color: white;
     border: 1px solid black;
