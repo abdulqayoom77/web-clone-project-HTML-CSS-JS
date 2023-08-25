@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+/* .stopWatch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    
+} */
+
+.stopWatch{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 50%;
+    background: #000000;
+    border-radius: 50px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.stopWatch::before{
+      
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    content: '';
+    background-image: conic-gradient(transparent, transparent, transparent, #01ff95);
+    animation: rotate_border 10s linear infinite;
+
+}
+.stopWatch::after{
+    
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    content: '';
+    background-image: conic-gradient(transparent, transparent, transparent, #00ccff);
+    animation: rotate_border 10s linear infinite;
+    animation-delay: 5s;
+}
+@keyframes rotate_border{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    display: inline-block;
+}
+
+.margin {
+    margin: 20px 20px;
+}
+
+.btn {
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+
+.container{
+    position: absolute;
+    background-color: #000000;
+    border-radius: 50px 5px;
+    inset: 5px;
+    z-index: 10;
+    color: #ffffff;
+    padding: 20% 12.5%;
+    margin: auto;    
+} 
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 100%;
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
