@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.calculator {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: black;
+    margin: auto;
+    /* padding: 10px;     */
+}
+button{
+    padding: 15px 30px;
+    margin: 0px 3px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.div_margin {
+    margin-bottom: 15px;
+}
+.mini_btn{
+    padding: 15px 32px;
+}
+input {
+    background-color: white;
+    color: black !important;
+    font-weight: 700;
+    font-size: 25px;
+    height: 33px;
+    width: 93%;
+    border-radius: 5px;
+}
+
+#equalz{
+    padding: 15px 71px;
+}
+.clr_div{
+    padding: 15px 34px;
+}
+
+h1 {
+    text-align: center;
+    margin-top:60px;
+    text-transform: uppercase;
+    font-size: 40px;
+}

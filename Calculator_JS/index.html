@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Calculator</h1>
+    <div class="calculator">
+        <div class="div_margin">
+            <input readonly type="text" name="" id="fld">
+        </div>
+        <div class="div_margin">
+            <button onclick="clr()">Clear All</button>
+            <button onclick="singleClr()" class="clr_div">Clear</button>
+            <button id="" onclick="clck('/')" class="clr_div">/</button>
+        </div>
+        <div class="div_margin">
+            <button id="seven" onclick="clck(7)">7</button>
+            <button id="" onclick="clck(8)">8</button>
+            <button id="" onclick="clck(9)">9</button>
+            <button id="" onclick="clck('*')">x</button>
+        </div>
+        <div class="div_margin">
+            <button id="" onclick="clck(4)">4</button>
+            <button id="" onclick="clck(5)">5</button>
+            <button id="" onclick="clck(6)">6</button>
+            <button id="" onclick="clck('-')" class="mini_btn">-</button>
+        </div>
+        <div class="div_margin">
+            <button id="" onclick="clck(1)">1</button>
+            <button id="" onclick="clck(2)">2</button>
+            <button id="" onclick="clck(3)">3</button>
+            <button id="" onclick="clck('+')">+</button>
+        </div>
+        <div class="div_margin">
+            <button id="" onclick="clck(0)">0</button>
+            <button id="" onclick="clck('.')" class="mini_btn">.</button>
+            <button id="equalz" onclick="eql('=')">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
