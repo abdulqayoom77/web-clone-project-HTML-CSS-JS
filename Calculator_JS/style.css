@@ -6,11 +6,13 @@
 }
 
 .calculator {
-    position: absolute;
+    /* position: absolute;
     top: 20%;
-    left: 40%;
+    left: 40%; */
     background-color: black;
-    margin: auto;
+    height: 430px;
+    width: 325px;
+    margin: 160px auto;
     /* padding: 10px;     */
 }
 button{
@@ -28,11 +30,12 @@ button{
 input {
     background-color: white;
     color: black !important;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 20px;
     height: 33px;
-    width: 93%;
+    width: 310px;
     border-radius: 5px;
+    padding: 10px 0;
 }
 
 #equalz{
@@ -43,8 +46,10 @@ input {
 }
 
 h1 {
+    /* text-align: center; */
+    margin-bottom: 15px;
     text-align: center;
-    margin-top:60px;
     text-transform: uppercase;
     font-size: 40px;
+    padding-right: 5px;
 }
