@@ -1,15 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .calculator {
     /* position: absolute;
     top: 20%;
     left: 40%; */
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 430px;
     width: 325px;
     margin: 160px auto;
@@ -18,8 +18,9 @@
 button{
     padding: 15px 30px;
     margin: 0px 3px;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .div_margin {
     margin-bottom: 15px;
