@@ -31,14 +31,19 @@ button{
 input {
     background-color: white;
     color: black !important;
-    font-weight: 600;
-    font-size: 20px;
-    height: 33px;
-    width: 310px;
+    font-weight: 400;
+    /* padding: 0px 5px; */
+    font-size: 15px;
+    height: 28px;
+    width: 265px;
     border-radius: 5px;
     padding: 10px 0;
     border: none;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
 }
 
 #equalz{
