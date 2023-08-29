@@ -20,8 +20,14 @@ button{
     margin: 0px 3px;
     border: 0px solid rgb(0, 0, 0);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+
+button:active{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 10px 0px, rgba(14, 30, 37, 0.32) 0px 4px 22px 0px;
+}
+
 .div_margin {
     margin-bottom: 15px;
 }
@@ -42,6 +48,14 @@ input {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
+textarea:focus, input:focus{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 10px 0px, rgba(14, 30, 37, 0.32) 0px 4px 22px 0px;
+    outline: none;
+
+}
+
+
+
 input[type=text] {
     padding: 12px 20px;
 }
@@ -59,7 +73,8 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
-    padding-right: 5px;
+    margin-right: 21px;
+    margin-bottom: 34px;
     text-shadow:     0 1px 0 hsl(174,5%,80%),
 	                 0 2px 0 hsl(174,5%,75%),
 	                 0 3px 0 hsl(174,5%,70%),
