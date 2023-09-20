@@ -13,6 +13,6 @@ function clr(){
 }
 function singleClr(){
     var sClr = document.getElementById("fld").value;
-    sClr = sClr.substr(0,sClr.length-1);
+    sClr = sClr.slice(0,-1);
     document.getElementById('fld').value = sClr;
 }
