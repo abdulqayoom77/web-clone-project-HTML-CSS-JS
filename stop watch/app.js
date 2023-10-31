@@ -38,3 +38,7 @@ function reset(){
     getSecs.innerHTML = sec;
     getMilliSecs.innerHTML = mili;
 }
+
+function ab(){
+    var i=0;
+}
